@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <title>Basket - BookShop</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+        <h1 class="logo">
+            <img src="logo.svg" alt="Логотип" class="logo-icon">
+          </h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Cataloge</a>
+        <a href="#">Shopping basket</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 class="section-title">Your Basket</h2>
+
+    <div class="cart-item">
+      <img src="book1.jpg" alt="Обкладинка книги" class="book-img" />
+      <div class="book-details">
+        <h3>Name: Book Name</h3>
+        <p>Author: Author's Name</p>
+        <p>Price: <strong>250₴</strong></p>
+        <label>Count:
+          <input type="number" value="1" min="1" />
+        </label>
+      </div>
+      <button class="btn btn-danger">Delete</button>
+    </div>
+    <div class="summary">
+      <p>Together: <strong>250₴</strong></p>
+      <button class="btn btn-success">Place an order</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 BookShop. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
