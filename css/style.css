@@ -591,3 +591,8 @@
     background: var(--mint_green);
   }
 }
+
+.cart{
+  text-decoration: none;
+  color:white;
+}
